@@ -43,7 +43,7 @@ public class Main {
                 for (int x = 0; x < 128; x++) {
                     for (int y = 0; y < 128; y++) {
                         byte input = data[x + y * 128];
-                        int colId = (input >>> 2) & 0b11111;
+                        int colId = (input >>> 2) & 0b111111;
                         byte shader = (byte) (input & 0b11);
 
                         BasicColor col = BasicColor.colors.get(colId);

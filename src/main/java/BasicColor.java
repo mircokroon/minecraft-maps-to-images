@@ -71,6 +71,9 @@ public class BasicColor {
         colors.put(56, toCol(58, 142, 140));
         colors.put(57, toCol(86, 44, 62));
         colors.put(58, toCol(20, 180, 133));
+        colors.put(59, toCol(100, 100, 100));
+        colors.put(60, toCol(216, 175, 147));
+        colors.put(61, toCol(127, 167, 150));
     }
 
     private static BasicColor toCol(int r, int g, int b) {
